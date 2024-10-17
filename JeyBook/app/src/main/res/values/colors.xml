@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colo1">#6482AD</color>
+    <color name="color2">#7FA1C3</color>
+    <color name="color3">#E2DAD6</color>
+    <color name="color4">#F5EDED</color>
+    <color name="anarenk">#FF353434</color>
+    <color name="vurgurengi">#FF353434</color>
+    <color name="arkaplan">#FF353434</color>
+
+
+</resources>

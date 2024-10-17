@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    app:cardCornerRadius="25dp"
+    android:elevation="8dp"
+    android:backgroundTint="@color/white"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:ignore="HardcodedText">
+
+    <!-- Başlık -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout3"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="16dp"
+            app:boxStrokeColor="@color/color2"
+            app:errorEnabled="true"
+            app:helperTextTextColor="@color/black"
+            app:hintTextColor="@color/black"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout2"
+            app:startIconDrawable="@drawable/right24"
+            app:startIconTint="@color/black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/addBookPageCountEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Sayfa sayısı"
+                android:inputType="number"
+
+
+                android:textColor="@color/black"
+                android:textColorHint="@color/color2" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout2"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginTop="16dp"
+            app:boxStrokeColor="@color/color2"
+            app:errorEnabled="true"
+            app:helperTextTextColor="@color/black"
+            app:hintTextColor="@color/anarenk"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout1"
+            app:startIconDrawable="@drawable/right24"
+            app:startIconTint="@color/black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/addBookDayEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Okunacak Gun sayisi"
+                android:inputType="number"
+
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textColorHint="@color/color2" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout1"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="344dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="32dp"
+            app:boxStrokeColor="@color/color2"
+            app:errorEnabled="true"
+            app:helperTextTextColor="@color/black"
+            app:hintTextColor="@color/anarenk"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/bottomSheetTitle"
+            app:startIconDrawable="@drawable/right24"
+            app:startIconTint="@color/black">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/addBookNameEdit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Kitap ismi"
+
+                android:inputType="text"
+
+                android:textColor="@color/black"
+                android:textColorHint="@color/color2" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:id="@+id/bottomSheetTitle"
+            android:layout_width="411dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/amarante"
+            android:gravity="center"
+            android:paddingBottom="16dp"
+            android:text="Kendin ekle"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/selfSaveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:backgroundTint="@color/color2"
+            android:elevation="4dp"
+            android:padding="12dp"
+            android:text="Kaydet"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout3" />
+
+        <Button
+            android:id="@+id/cancelButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:backgroundTint="@color/color2"
+            android:elevation="4dp"
+            android:padding="12dp"
+            android:text="Vazgeç"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/selfSaveButton" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

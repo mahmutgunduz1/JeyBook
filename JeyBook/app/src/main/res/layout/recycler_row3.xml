@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="160dp"
+    android:layout_height="230dp"
+    app:cardCornerRadius="20dp"
+    android:backgroundTint="@color/white"
+    android:layout_margin="3dp"
+
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txtRow3"
+            android:layout_width="0dp"
+            android:layout_height="23dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="7dp"
+            android:gravity="center"
+            android:text="hhhhhh"
+            android:textAllCaps="true"
+            android:textColor="@color/black"
+            android:textSize="8sp"
+            android:textStyle="bold"
+            android:typeface="sans"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imgRow3" />
+
+        <ImageView
+            android:id="@+id/imgRow3"
+            android:layout_width="0dp"
+            android:layout_height="192dp"
+            android:scaleType="fitXY"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/alert_dark_frame" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "621985137023",
+    "project_id": "jeybook-188cf",
+    "storage_bucket": "jeybook-188cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:621985137023:android:c0f19ae1cc804bc1bd5a4a",
+        "android_client_info": {
+          "package_name": "com.mahmutgunduz.jeybook.View"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyPH7oLaSbqh-OfXlUwBlJRMvsH1opz0k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

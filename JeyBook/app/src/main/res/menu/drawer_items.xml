@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<group
+
+    android:id="@+id/group1">
+
+    <item
+        android:id="@+id/hesap"
+        android:icon="@drawable/kesvet"
+        android:title="Hesap" />
+    <item
+        android:id="@+id/uygulama"
+        android:icon="@drawable/search"
+
+        android:title="Uygulama" />
+    <item
+        android:id="@+id/abonelik"
+        android:icon="@drawable/home"
+        android:title="Abonelik" />
+
+
+</group>
+
+<group
+    android:id="@+id/group2"
+
+    >
+
+
+    <item
+        android:id="@+id/gizlilik"
+        android:icon="@drawable/save"
+        android:title="Gizlilik" />
+    <item
+        android:id="@+id/yardim"
+        android:icon="@drawable/profile"
+        android:title="Yardım merkezi" />
+    <item
+        android:id="@+id/sartlar"
+        android:icon="@drawable/profile"
+        android:title="Şartlar ve koşullar" />
+
+
+</group>
+<group
+    android:id="@+id/group3"
+    >
+
+
+    <item
+        android:id="@+id/cikis"
+        android:icon="@drawable/profile"
+        android:title="Çıkış yap" />
+
+
+</group>
+
+
+
+
+</menu>
